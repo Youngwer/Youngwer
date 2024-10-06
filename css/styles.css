@@ -1,0 +1,126 @@
+header {
+    color: rgb(0, 0, 0);
+    padding: 1em 0;
+    text-align: left;
+}
+
+.container {
+    padding-left: 5em; /* 统一控制 h1 和导航栏的左对齐 */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    margin-bottom: 0.5em; 
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.2em;
+    margin-bottom: 1.5em; /* 增加 h2 到导航栏的间距 */
+    font-weight: normal; /* 确保文字不加粗 */
+    font-family: 'Arial', sans-serif; /* 替换为你想要的字体，这里以 Arial 为例 */
+}
+
+
+nav {
+    display: flex; /* 使用 flexbox 布局 */
+    padding: 0em;
+    margin-bottom: 1em; /* 增加 h2 到导航栏的间距 */
+}
+
+.nav-item {
+    margin-right: 10em; /* 导航项之间的间距 */
+}
+
+.nav-item a {
+    text-decoration: none; /* 去掉下划线 */
+    font-size: 1.5em; /* 设置字体大小 */
+    color: blue; /* 设置文字颜色 */
+    padding: 0em; /* 设置内边距 */
+    border-bottom: 2px solid transparent; /* 添加下划线，初始为透明 */
+    transition: border-color 0.3s; /* 添加过渡效果 */
+}
+.nav-item a:hover {
+    border-bottom: 2px solid blue; /* 鼠标悬停时下划线变为蓝色 */
+}
+
+.introduction {
+    display: flex; /* 使用 flexbox 布局 */
+    align-items: flex-start; /* 确保图片和文字顶部对齐 */
+    padding-left: 5em; /* 确保与 h1 左对齐 */
+    max-width: 60em; /* 设置一个最大宽度，与分割线和页脚相同 */
+}
+.text-section {
+    flex: 1; /* 左侧文本占据可用空间 */
+    padding-right: 1em; /* 文本和图片之间的间距 */
+    text-align: justify; /* 设置文本两端对齐 */
+    margin-top: -1em;
+}
+.text-section p {
+    margin-bottom: 1em; /* 设置段落之间的间距 */
+    line-height: 1.2; /* 调整行高，使段落更易于阅读 */
+    font-size: 0.8em; /* 设置字体大小 */
+}
+
+
+.image-section {
+    flex: 0 0 40%; /* 固定宽度为 30% */
+    margin-left: auto; /* 图片右对齐 */
+    margin-top: 0em;
+}
+
+.image-section img {
+    width: 100%; /* 确保图片占满整个容器 */
+    height: auto; /* 保持图片的宽高比 */
+    display: block; /* 确保图片为块级元素 */
+}
+.divider {
+    border-bottom: 2px solid #000; /* 分割线样式 */
+    width: 60em; /* 设置固定宽度，你可以调整这个值 */
+    margin-left: 5em; /* 确保与 h1、h2 的左端对齐 */
+    margin-bottom: 1em; /* 给分割线增加下边距 */
+}
+
+main {
+    padding: 0em;
+}
+
+footer {
+    background-color: #c0bcbc; /* 页脚背景颜色，灰色 */
+    padding: 1em 0; /* 页脚内边距 */
+    margin-left: 5em; /* 设置左边距，与 h1、h2 左对齐 */
+    width: 60em;
+}
+
+.footer-container {
+   
+    margin: 0 auto; /* 使容器居中 */
+    
+}
+
+.footer-row {
+    display: flex; /* 使用 flexbox 布局 */
+    justify-content: space-between; /* 两边对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    padding: 0 2em; /* 设置两边的内边距 */
+}
+
+.footer-row div {
+    flex: 1; /* 每个子元素占据相等的空间 */
+    text-align: left; /* 默认左对齐 */
+}
+
+.footer-row .footer-twitter {
+    text-align: center; /* Twitter 项居中对齐 */
+}
+
+.footer-row .footer-location,
+.footer-row .footer-facebook {
+    text-align: right; /* Facebook 项右对齐 */
+}
+
+.footer-row .footer-contact,
+.footer-row .footer-blog {
+    text-align: left; /* 其余项左对齐 */
+}
