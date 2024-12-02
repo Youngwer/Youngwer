@@ -1,5 +1,5 @@
 # 💫 About Me:
-- 🔭 I’m currently working on  Web Architecture<br>- 🌱 I’m currently learning HTML, CSS and Javascript<br>- 👯 I’m looking to collaborate on how to create a interactive website<br>- 🤔 I’m looking for help with good website and stable backend<br>- 💬 Ask me about ...<br>- 📫 How to reach me: My whatsapp is +44 7436 924252<br>- 😄 Pronouns: he<br>- ⚡ Fun fact: I studied Digital Media Technology instead of Computer Science when undergraduate career.
+- 🔭 I’m currently working on  Web Architecture<br>- 🌱 I’m currently learning HTML, CSS and Javascript<br>- 👯 I’m looking to collaborate on how to create a interactive website<br>- 🤔 I’m looking for help with good website and stable backend<br>- 💬 Ask me about ...<br>- 📫 How to reach me: My whatsapp is +44 7387807071<br>- 😄 Pronouns: he<br>- ⚡ Fun fact: I studied Digital Media Technology instead of Computer Science when undergraduate career.
 
 
 ## 🌐 Socials:
